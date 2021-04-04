@@ -1,0 +1,127 @@
+.loading{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-app{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(226, 225, 225);
+}
+.card-header{
+    background-color: rgb(235, 232, 232);
+}
+.card-container{
+    padding: 1%;
+}
+.card-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 90px;
+}
+.Progress-color-success{
+    color:rgb(46, 150, 54) !important;
+}
+.Progress-color-error{
+    color:rgb(207, 19, 19) !important;
+}
+.MuiGrid-spacing-xs-1 {
+    width: calc(100% + 0px) !important;
+    margin: 0 !important;
+}
+.main-app-container{
+    flex-grow: 1
+}
+.space-y{
+    padding: 5px;
+}
+.top-recipe-space{
+    display:'flex';
+    margin-top:11px;
+    margin-left: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.svg-icon-size{
+    font-size: 15px !important;
+}
+.table-container{
+    width: 100%;
+    min-width: 300px !important;
+    margin-top:-12px;
+}
+
+
+  .table-body{
+      max-height: 310px !important;
+  }
+  .table-page{
+      width:100%;
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+    justify-content: flex-end;
+  }
+
+  .tabs{
+      display: flex;
+      align-items: center;
+      height: 50px;
+      margin: 0% 1% 0 1%;
+      border-radius: 5px;
+      box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+      background-color: rgb(226, 225, 225);
+      
+  }
+
+  .tab-button{
+      
+      width: 120px;
+     
+      background: rgb(153, 170, 207);
+      
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+  }
+  .active, .tab-button:hover {
+    background-color: #FFF;
+    color: rgb(72, 94, 141);
+    z-index: 1520;
+  }
+  .tab-button>span{
+      font-size: 11px;
+     cursor: pointer;
+  }
+  .tab-button-left-margin{
+      margin-left: -12px;
+  }
+  .text-size-x{
+font-size: 12px !important;
+color: #FFF !important;
+  }
+  @media only screen and (max-width: 600px) {
+    .table-container{
+        width: 100%;
+        min-width: 300px !important;
+        margin: 0% 1% 0 1%;
+        margin-top:-8px;
+    }
+    .tabs{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        background-color: rgb(226, 225, 225);
+        margin: 0% 2% 0 2%;
+        border-radius: 5px;
+        box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)
+        
+    }
+  
+  }
